@@ -1,0 +1,250 @@
+@import url("common.css");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #1D1D28;
+}
+
+.wrap,
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrap header,
+section header {
+  width: 100%;
+  background: #1D1D28;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.wrap header nav .head_one,
+section header nav .head_one {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem 0;
+}
+
+.wrap header nav .head_one span,
+section header nav .head_one span {
+  width: 10%;
+  text-align: center;
+}
+
+.wrap header nav .head_one p,
+section header nav .head_one p {
+  flex: 1;
+  text-align: center;
+}
+
+.wrap header nav .head_two,
+section header nav .head_two {
+  height: 1.2rem;
+  background: linear-gradient(to right, #2CBB55, #2CBB86);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .2rem;
+}
+
+.wrap header nav .head_two .head_left,
+section header nav .head_two .head_left {
+  width: 10%;
+  height: auto;
+}
+
+.wrap header nav .head_two .head_left img,
+section header nav .head_two .head_left img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrap header nav .head_two .head_middle,
+section header nav .head_two .head_middle {
+  background: #fff;
+  padding: .15rem 0;
+  border-radius: .4rem;
+}
+
+.wrap header nav .head_two .head_middle i.icon,
+section header nav .head_two .head_middle i.icon {
+  padding-left: .3rem;
+}
+
+.wrap header nav .head_two .head_right,
+section header nav .head_two .head_right {
+  color: #fff;
+}
+
+.wrap section,
+section section {
+  flex: 1;
+  padding-top: 2.4rem;
+}
+
+.wrap section .scroll,
+section section .scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.wrap section .scroll .pic,
+section section .scroll .pic {
+  margin: 5% 0 0 5%;
+}
+
+.wrap section .scroll .pic img,
+section section .scroll .pic img {
+  width: 95%;
+  height: 100%;
+  display: block;
+}
+
+.wrap section .scroll .dl_list,
+section section .scroll .dl_list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: .3rem 0;
+}
+
+.wrap section .scroll .dl_list dl,
+section section .scroll .dl_list dl {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: .2rem 0;
+}
+
+.wrap section .scroll .dl_list dl dt,
+section section .scroll .dl_list dl dt {
+  width: 50%;
+  height: 100%;
+}
+
+.wrap section .scroll .dl_list dl dt img,
+section section .scroll .dl_list dl dt img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrap section .scroll .dl_list dl dd,
+section section .scroll .dl_list dl dd {
+  font-size: 14px;
+  padding-top: .2rem;
+}
+
+.wrap section .scroll .size,
+section section .scroll .size {
+  width: 100%;
+  height: auto;
+  border-top: solid 1px #363645;
+  display: flex;
+  align-items: center;
+}
+
+.wrap section .scroll .size span,
+section section .scroll .size span {
+  width: .1rem;
+  height: .5rem;
+  background: #FBC700;
+  display: block;
+  margin: .5rem .3rem;
+}
+
+.wrap section .scroll .size h3,
+section section .scroll .size h3 {
+  color: #fff;
+}
+
+.wrap section .scroll .img,
+section section .scroll .img {
+  width: 98%;
+  height: auto;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 0 .7rem 0;
+}
+
+.wrap section .scroll .img .img_one,
+section section .scroll .img .img_one {
+  width: 100%;
+  height: auto;
+  margin-left: .3rem;
+}
+
+.wrap section .scroll .img span img,
+section section .scroll .img span img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrap section .scroll .img .img_treen,
+section section .scroll .img .img_treen {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.wrap section .scroll .img .img_four,
+section section .scroll .img .img_four {
+  position: absolute;
+  right: 4%;
+  top: 30%;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer {
+  background: #fff;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem 0;
+}
+
+footer ul li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li img {
+  width: 15%;
+  height: 100%;
+  display: block;
+  margin-right: .2rem;
+}
+
+footer ul li:nth-child(1) {
+  color: #2CBB55;
+}
+
+footer ul li:nth-child(2) {
+  color: #363645;
+}
